@@ -1,0 +1,130 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  color: white;
+}
+
+.auth-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 320px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.auth-form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.auth-form input:focus {
+  outline: 2px solid #6c2bd9;
+}
+
+.auth-form button {
+  padding: 12px;
+  background: linear-gradient(90deg, #6c2bd9, #4b1ea8);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.auth-form button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #7d3cff, #5a2bd9);
+}
+
+.success-message {
+  background: #22c55e;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.error-message {
+  background: #ef4444;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-password {
+  margin-left: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border: none;
+  background: #6c2bd9;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+
+.registration-page {
+  display: flex;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  align-items: center;
+}
+
+.registration-info {
+  flex: 1;
+}
+
+.registration-info h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.registration-info p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.registration-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reg-info {
+  font-size: 12px;
+  color: #9ca3af;
+  margin: -6px 0 10px 0;
+  margin-left: 20px;
+
+}

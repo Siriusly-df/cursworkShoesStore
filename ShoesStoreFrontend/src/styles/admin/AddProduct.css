@@ -1,0 +1,160 @@
+.add-product-page {
+  min-height: 100vh;
+  background: #0f0f1a;
+  padding: 20px;
+  color: white;
+}
+
+.extra-previews {
+  grid-column: span 2;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.extra-previews img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #1c1c2e;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+
+.form-card h1 {
+  margin-bottom: 18px;
+  font-size: 22px;
+}
+
+.product-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+textarea,
+button,
+h3,
+.file-label,
+.sizes-list {
+  grid-column: span 2;
+}
+
+.product-form input,
+.product-form select,
+.product-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #2a2a40;
+  color: white;
+  font-size: 13px;
+}
+
+.product-form textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.file-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  padding: 12px;
+  background: #2a2a40;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.preview-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.size-box {
+  grid-column: span 2;
+  display: flex;
+  gap: 8px;
+}
+
+.size-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  background: #2a2a40;
+  border: none;
+  color: white;
+}
+
+.product-form button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #6c2bd9, #8a4fff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.product-form button:hover {
+  transform: translateY(-2px);
+}
+
+.sizes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.size-item {
+  background: #2a2a40;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.size-item button {
+  background: red;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  color: #ffcc00;
+  font-size: 13px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.product-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.file-label input {
+  display: none;
+}

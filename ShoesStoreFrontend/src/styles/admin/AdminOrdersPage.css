@@ -1,0 +1,101 @@
+.admin-orders {
+  padding: 40px;
+  background: #0f1115;
+  min-height: 100vh;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+}
+
+.admin-orders h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* CARD */
+.order-card {
+  background: #161a22;
+  border: 1px solid #232836;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: 0.2s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-2px);
+  border-color: #2f3545;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* HEADER GRID */
+.order-header {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 1fr 270px 180px;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.order-header h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.order-header span {
+  font-size: 14px;
+  color: #a1a1aa;
+}
+
+.order-header select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #2a2f3a;
+  background: #0f1115;
+  color: #e5e7eb;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
+
+.order-header select:hover {
+  border-color: #4b5563;
+}
+
+.order-items-admin {
+  border-top: 1px solid #2a2f3a;
+  padding-top: 12px;
+  display: grid;
+  grid-template-columns: 220px 100px 200px 120px; 
+  gap: 12px;
+}
+
+.item-row {
+  display: contents; 
+}
+
+.item-row:hover {
+  background: #151a28;
+}
+
+.item-row strong {
+  color: #ffffff;
+}
+
+.item-row span {
+  color: #a1a1aa;
+  font-size: 14px;
+}
+
+.apply-btn {
+  margin-left: 12px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}

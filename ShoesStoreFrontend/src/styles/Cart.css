@@ -1,0 +1,144 @@
+.cart-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  color: #111;
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.cart-header img {
+  width: 34px;
+  height: 34px;
+}
+
+.cart-container h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 15px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.cart-item:hover {
+  transform: translateY(-2px);
+}
+
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.meta {
+  font-size: 14px;
+  color: #666;
+}
+
+.price {
+  font-weight: 600;
+  color: #000;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.qty-controls button {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: none;
+  background: #6c2bd9;
+  color: white;
+  cursor: pointer;
+}
+
+.qty-controls span {
+  min-width: 20px;
+  text-align: center;
+}
+
+.remove-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.remove-btn:hover {
+  background: #ff1f1f;
+}
+
+.cart-total {
+  margin-top: 25px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  background: linear-gradient(90deg, #6c2bd9, #4b1ea8);
+  color: white;
+  border-radius: 12px;
+}
+
+.order-btn-cart {
+  display: block;
+  margin-top: 20px;
+  padding: 14px;
+  text-align: center;
+
+  background: #6c2bd9;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.order-btn-cart:hover {
+  background: #4b1ea8;
+  transform: scale(1.03);
+}
